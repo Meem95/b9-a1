@@ -14,7 +14,6 @@
         font-family: 'Merriweather', serif;
         font-family: 'Inter', sans-serif;
         
-
     }
     .banner{
         width: 1320px;
@@ -86,16 +85,17 @@
         margin-top: 30px;
     }
    .main-img {
-        background: linear-gradient(to right, rgba(0.1, 0, 0, 0.6) 50%, transparent 100%);
-        mix-blend-mode: color;
+        background: linear-gradient(to right, rgba(0.1, 0, 0, 0.6) 50%, transparent 100%); 
+         mix-blend-mode: color;
         border-radius: 10px;
-           
+        flex: 22;
+        position: relative;
     }
     .party-banner{
         display: flex;
         height: auto;
-        background: linear-gradient(to right, rgba(0.1, 0, 0, 0.6) 50%, transparent 100%);
-        mix-blend-mode: multiply;   
+        background: linear-gradient(to right, rgba(0.1, 0, 0, 0.6) 50%, transparent 100%); 
+        mix-blend-mode: color;
     }
    
     .child-img  {
@@ -117,9 +117,10 @@
         text-align: left;
         width: 50%;
         margin-top: 10%;
+        z-index: 2;
     }
     .main-content {
-        color: rgba(255, 255, 255, 0.80);
+        color: rgba(255, 255, 255, 0.80)!important;
         font-size: 18px;
         font-weight: 400;
         position: absolute;
@@ -127,6 +128,7 @@
         margin-top: 20%;
         margin-left: 128px;
         text-align: left;
+        z-index: 2;
     }
     .main-btn {
         position: absolute;
@@ -137,6 +139,101 @@
         font-family: 'Inter', sans-serif;
         font-size: 20px;
         font-weight: 700;
+        cursor: pointer;
+        z-index: 2;
+    }
+    .event{
+        width: 1320px;
+        height: 482px;
+        background-image: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+        margin: 0 auto;
+        border-radius: 13px;
+        text-align: center;
+        margin-top: 70px;
+
+    }
+    .event p{
+        text-align: center;
+        font-family: 'Inter', sans-serif;
+        font-size: 32px;
+        margin: 10px;
+    }
+        
+    .event-content {
+        padding-top: 120px;
+    }
+    .event-content button {
+        border-radius: 8px;
+        background: #F00;
+        display: inline-flex;
+        padding: 14px 30px;
+        justify-content: center;
+        color: #FFF;
+        font-family: 'Inter', sans-serif;
+        font-size: 20px;
+        font-weight: 700;
+        text-transform: uppercase;
+        border: none;
+        margin-top: 40px;
+        
+    }
+    .best-offer{
+        display:flex;
+        background: #FFF;
+        margin: 0 auto;
+        width: 1320px;
+        margin-top: 70px;
+    }
+    .best-offer-content-one{
+        width: 30%;
+        padding: 20px;
+    }
+    .best-offer-content-one p {
+        color: rgba(7, 2, 17, 0.60);
+        font-family: 'Inter', sans-serif;
+        font-size: 20px;
+        font-weight: 400;
+        
+    }
+    .best-offer-content-one h5{
+        color: #F00;
+        text-align: left;
+        font-family: 'Inter', sans-serif;
+        font-size: 24px;
+        font-weight: 500;
+    }
+    .best-offer-content-one h2{
+        color: #070211;
+        font-family: 'Merriweather', serif;
+        font-size: 48px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: normal;
+        text-transform: capitalize;
+    }
+    .best-offer-content-two{
+        width: 30%;
+        padding: 0px 0px 0px 50px;
+        margin-left: 20px;
+    }
+    .best-offer-content-two h2{
+        color: #F00;
+        font-family: 'Inter', sans-serif;
+        font-size: 48px;
+        font-weight: 700;
+    }
+    .best-offer-content-two p{
+        color: rgba(7, 2, 17, 0.60);
+        font-family: 'Inter', sans-serif;
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 32px;
+    }
+    .best-offer-img{
+        padding: 20px;
+        border-radius: 463px;
+        border: 15px solid #F00;
+
     }
     
 </style>
@@ -166,7 +263,30 @@
             <img class="main-img" src="resources/Vectorrr.png" alt="">
             <img class="child-img" src="resources/Group 70.png" alt="">
         </div> 
-       
+    </section>
+    <section class="event">
+        <div class="event-content">
+            <p>Place: New Park Hotel</p>
+            <p>Date: 31 December Night 2023</p>
+            <p> Time: Evening 7.30 pm to 12.30 am</p>
+            <button>Join Now</button>
+        </div>
+    </section>
+    <section class="best-offer">
+        <div class="best-offer-content-one">
+            <h5>NEW BEST OFFER</h5>
+            <h2>Coming Soon</h2>
+            <p>Get ready for the upcoming excitement as we unveil our latest and greatest offers! Stay tuned for the New Best Offer – your gateway to unbeatable deals and exclusive savings.</p>
+        </div>
+        <div class="best-offer-img">
+            <img src="resources/Ellipse 1.png" alt="">
+        </div>
+        <div class="best-offer-content-two">
+            <h2>2024</h2>
+            <p>Get ready for a game-changer! The NEW BEST OFFER is about to revolutionize your shopping journey.</p>
+            <img src="resources/Group 96.png" alt="">
+        </div>
+
     </section>
     
 </body>
