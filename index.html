@@ -7,6 +7,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
     </head>
 <style>
     body{
@@ -74,6 +75,70 @@
         width: 802.9px;
         height: 500px;
     }
+    .second{
+        text-align: center;
+    }
+    .third .party-banner {
+        width: 1320px;
+        height: 600px;
+        text-align: center;
+        margin: auto;
+        margin-top: 30px;
+    }
+   .main-img {
+        background: linear-gradient(to right, rgba(0.1, 0, 0, 0.6) 50%, transparent 100%);
+        mix-blend-mode: color;
+        border-radius: 10px;
+           
+    }
+    .party-banner{
+        display: flex;
+        height: auto;
+        background: linear-gradient(to right, rgba(0.1, 0, 0, 0.6) 50%, transparent 100%);
+        mix-blend-mode: multiply;   
+    }
+   
+    .child-img  {
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        height: 464.662px;
+        margin-top: 85px;
+        left: 65%;
+    }
+    .main-title{
+        color: #FFF;
+        position: absolute;
+        margin-left: 128px;
+        font-size: 54px;
+        font-family: Merriweather;
+        font-weight: 900;
+        letter-spacing: 6.04px;
+        text-align: left;
+        width: 50%;
+        margin-top: 10%;
+    }
+    .main-content {
+        color: rgba(255, 255, 255, 0.80);
+        font-size: 18px;
+        font-weight: 400;
+        position: absolute;
+        width: 40%;
+        margin-top: 20%;
+        margin-left: 128px;
+        text-align: left;
+    }
+    .main-btn {
+        position: absolute;
+        margin-top: 30%;
+        margin-left: 158px;
+        color: #FFF;
+        text-align: center;
+        font-family: 'Inter', sans-serif;
+        font-size: 20px;
+        font-weight: 700;
+    }
+    
 </style>
 <body>
     <header>
@@ -84,7 +149,7 @@
             </div>
         </div>
     </header>
-    <section>
+    <section class="second">
         <div class="deals">
             <h1>65% OFF</h1>
             <p>OUR HOLIDAY DEALS ARE BETTER</p>
@@ -92,6 +157,16 @@
             <img src="resources/New Year Photo.png" alt="">
         </div>
 
+    </section>
+    <section class="third">
+        <div class="party-banner">
+            <h1 class="main-title title">Welcome to <br>midnight party</h1>
+            <p class="main-content "> As the clock strikes midnight, a symphony of hope and joy fills the air, marking the beginning of a new year, a fresh chapter filled with endless possibilities.</p>
+            <a class="main-btn"> JOIN NOW</a>
+            <img class="main-img" src="resources/Vectorrr.png" alt="">
+            <img class="child-img" src="resources/Group 70.png" alt="">
+        </div> 
+       
     </section>
     
 </body>
