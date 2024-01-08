@@ -396,11 +396,13 @@ body{
 }
 
 
-    /////// footer section styles //////////////////////////////////////////////////////////////////footer{
+ /////// footer section styles //////////////////////////////////////////////////////////////////
+ footer{
     margin:0;
     padding: 0;
 }
 .footer{
+    width:100%;
     height: 609px;
     background: #070211;
 }
